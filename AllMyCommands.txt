@@ -1,0 +1,49 @@
+$ git init
+
+$ git add "1.1.txt"
+
+$ git status
+
+$ git add "3.1.txt"
+
+$ git add "5.1.txt"
+
+$ rm "3.1.txt"
+
+$ git status
+
+$ git checkout "3.1.txt"
+
+$ git status
+
+$ git commit -m "files added to repository"
+
+$ git config --global user.name "OSobky"
+
+$ git config --global user.email "Omar_sobky@hotmail.com"
+
+$ git commit -m "files added to repository"
+
+$ git remote add origin https://github.com/OSobky/Sprint0.git
+
+$ git push origin master
+
+$ touch README.md
+
+$ git branch ReadMe
+
+$ git checkout ReadMe
+
+$ git add "READ.md"
+
+$ git commit -m "README added to repository"
+
+$ git merge master
+
+$ git checkout master
+
+$ git merge ReadMe
+
+$ git add "AllMyCommands.txt"
+
+$ git commit -m "AllMyCommands added to repository"
